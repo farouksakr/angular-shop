@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop HP Pavilion Aero 13",
+    "desc": "HP Pavilion 15.6 Touchscreen Laptop PC, Intel Core i7-1165G7, 16GB DDR4 RAM, 1TB PCIe SSD, 15.6 inch FHD Micro-edge Display Notebook, Intel Iris Xe Graphics, Windows 10 Home, Fog Blue",
+    "price": 200,
+    "image": "https://www.reliancedigital.in/medias/Lenovo-82FG00BQIN-Laptops-491946562-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNTk3NTl8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hiZS85NDUzODkyODk0NzUwLmpwZ3w2YzE0ODcxZDVlZjQ0MTNiNmUyNTg3NzA5MTQzOTE0NWZmM2YyZDE2MWE1MWY2NWJiZGY3ODVlYTY3YTFhNGYy",
+    "ratings": 1
+  },
+  {
+    "id": 2,
+    "title": "Lenovo V15 Gen 2",
+    "desc": "Designed for the modern workplace, the Lenovo V15 Gen 2 (15 Intel) laptop gets it right. Suited for mobile productivity, it yields great performance in the office or at home. 11th Gen Intel® Core™ processors and NVIDIA® discrete graphics, plus top-notch security, memory, and storage options, give you a smooth workday, every day.",
+    "price": 250,
+    "image": "https://www.reliancedigital.in/medias/Lenovo-82FG00BQIN-Laptops-491946562-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNTk3NTl8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hiZS85NDUzODkyODk0NzUwLmpwZ3w2YzE0ODcxZDVlZjQ0MTNiNmUyNTg3NzA5MTQzOTE0NWZmM2YyZDE2MWE1MWY2NWJiZGY3ODVlYTY3YTFhNGYy",
+    "ratings": 2
+  },
+  {
+    "id": 3,
+    "title": "Microsoft Surface Laptop Go",
+    "desc": "Microsoft Surface Laptop Go Ultra-Thin 12.4” Touchscreen Laptop (Platinum) - Intel 10th Gen Quad Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode, 2020 Edition",
+    "price": 300,
+    "image": "https://www.reliancedigital.in/medias/Lenovo-82FG00BQIN-Laptops-491946562-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNTk3NTl8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hiZS85NDUzODkyODk0NzUwLmpwZ3w2YzE0ODcxZDVlZjQ0MTNiNmUyNTg3NzA5MTQzOTE0NWZmM2YyZDE2MWE1MWY2NWJiZGY3ODVlYTY3YTFhNGYy",
+    "ratings": 3
+  },
+  {
+    "id": 4,
+    "title": "ASUS Vivobook E510MA",
+    "desc": "ASUS Vivobook E510MA 15.6-inch Laptop (Intel Celeron N4020, 4GB RAM, 128GB eMMC, Windows 10) Includes 1 Year Microsoft Office 365 Subscription",
+    "price": 350,
+    "image": "https://www.reliancedigital.in/medias/Lenovo-82FG00BQIN-Laptops-491946562-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNTk3NTl8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hiZS85NDUzODkyODk0NzUwLmpwZ3w2YzE0ODcxZDVlZjQ0MTNiNmUyNTg3NzA5MTQzOTE0NWZmM2YyZDE2MWE1MWY2NWJiZGY3ODVlYTY3YTFhNGYy",
+    "ratings": 4
+  },
+  {
+    "id": 5,
+    "title": "Apple MacBook Air Laptop",
+    "desc": "2020 Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID; Space Grey",
+    "price": 400,
+    "image": "https://www.reliancedigital.in/medias/Lenovo-82FG00BQIN-Laptops-491946562-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNTk3NTl8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hiZS85NDUzODkyODk0NzUwLmpwZ3w2YzE0ODcxZDVlZjQ0MTNiNmUyNTg3NzA5MTQzOTE0NWZmM2YyZDE2MWE1MWY2NWJiZGY3ODVlYTY3YTFhNGYy",
+    "ratings": 5
+  }
+]

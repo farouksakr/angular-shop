@@ -1,0 +1,23 @@
+<div class="checkout-products">
+  <div class="checkout-product" *ngFor="let product of checkoutProducts">
+    <img src="{{ product.image }}" alt="" class="checkout-product-img" />
+    <div class="checkout-product-info">
+      <p class="checkout-product-title">
+        {{ product.title }}
+      </p>
+      <p class="checkout-product-desc">
+        {{ product.desc }}
+      </p>
+      <p class="checkout-product-in-stock">In Stock</p>
+      <div class="checkout-options">
+        <div class="checkout-dropdown"></div>
+        <a (click)="removeItem(product)"> Delete</a>
+        <a>Save for later</a>
+        <a>Compare with similar items</a>
+      </div>
+    </div>
+    <div class="checkout-products-price">
+      <p>{{ product.price | currency }}</p>
+    </div>
+  </div>
+</div>

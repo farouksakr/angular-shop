@@ -1,0 +1,124 @@
+.top-header {
+  height: fit-content;
+  background-color: #0f1111;
+  display: flex;
+  color: #fff;
+  padding-right: 8px;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.header-menu > div {
+  margin: 2px 15px;
+}
+.header-icon > mat-icon {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+.header-logo {
+  object-fit: contain;
+  width: 100px;
+  margin: 12px 20px 0 2px;
+  cursor: pointer;
+}
+.header-location .line-one {
+  font-size: 12px;
+}
+.header-location .line-two {
+  font-size: 14px;
+  font-weight: 700;
+}
+.header-location {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.header-search {
+  display: flex;
+  flex: 1;
+}
+.header-search .search {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+.header-search .search-icon {
+  background-color: #febd69;
+  width: 40px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 5px 5px 0;
+}
+@media (max-width: 720px) {
+  .header-search {
+    display: none;
+  }
+}
+.header-signin {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.header-signin .header-top-item {
+  font-size: 12px;
+  color: lightgray;
+}
+.header-signin .header-bottom-item {
+  font-size: 14px;
+  font-weight: 700;
+}
+.header-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-cart > mat-icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+.header-cart .header-cart-icon {
+  font-size: 20px;
+  color: #febd69;
+  font-weight: 700;
+}
+
+.bottom-header {
+  height: 40px;
+  background-color: #232f3e;
+  color: #fff;
+}
+.bottom-header .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bottom-header .content > p {
+  margin: 0;
+  padding: 10px 20px;
+  height: 35px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.bottom-header .content p:hover {
+  color: #febd69;
+}
+@media (max-width: 700px) {
+  .bottom-header {
+    display: none;
+  }
+}
+@media (max-width: 490px) {
+  .header-location,
+  .header-signin.second {
+    display: none;
+  }
+}

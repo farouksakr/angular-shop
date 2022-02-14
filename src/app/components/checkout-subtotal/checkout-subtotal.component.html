@@ -1,0 +1,7 @@
+<div class="subtotal" *ngIf="cartService.getCartLength() > 0">
+  <p>
+    Subtotal: ({{ cartService.getCartLength() }} Products)
+    <strong>${{ cartService.getTotal() }}</strong>
+  </p>
+  <button>Proceed to checkout</button>
+</div>

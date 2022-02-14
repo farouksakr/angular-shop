@@ -1,0 +1,28 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product > mat-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  width: 300px;
+  margin: 20px;
+  align-items: center;
+}
+.product > mat-card > img {
+  object-fit: contain;
+  /* width: 100%; */
+  height: 200px;
+}
+.product > mat-card > button {
+  margin-top: 20px;
+  background-color: #febd69;
+  color: #000;
+  border: 0;
+  transition: 0.2s ease-in-out;
+}
+.product mat-card button:hover {
+  letter-spacing: 1px;
+}

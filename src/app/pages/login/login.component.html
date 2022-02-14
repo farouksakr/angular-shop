@@ -1,0 +1,29 @@
+<div class="login">
+  <div class="login-container">
+    <img
+      src="https://safa.ps/uploads//images/d2f1040f0ef49f47f5588d007c8bbafe.png"
+      class="login-logo"
+      alt=""
+      routerLink=""
+    />
+    <div class="login-form">
+      <h1>sign-In</h1>
+      <form [formGroup]="loginForm">
+        <h4>Email</h4>
+        <input type="email" class="form-control" formControlName="email" />
+        <h4>Password</h4>
+        <input
+          type="password"
+          class="form-control"
+          formControlName="password"
+        />
+        <button class="btn" (click)="signIn()">Sign in</button>
+        <p>
+          By continuing, you agree to Amazon's Conditions of Use and Privacy
+          Notice.
+        </p>
+        <button class="btn" (click)="createAccount()">Create Account</button>
+      </form>
+    </div>
+  </div>
+</div>

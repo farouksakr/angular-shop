@@ -1,0 +1,147 @@
+<a name="top"></a>
+<div class="header">
+  <nav class="top-header">
+    <div class="header-menu">
+      <div class="header-icon">
+        <mat-icon>menu</mat-icon>
+      </div>
+      <img
+        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        class="header-logo"
+        alt=""
+        routerLink=""
+      />
+      <div class="header-location">
+        <span class="line-one">Delivery to</span>
+        <span class="line-two">Egypt</span>
+      </div>
+      <div class="header-search">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text search-icon" id="basic-addon2">
+            <mat-icon>search</mat-icon>
+          </span>
+        </div>
+      </div>
+      <div class="header-signin">
+        <span
+          (click)="signOut()"
+          class="header-top-item"
+          *ngIf="authService.isLoggedIn()"
+          >Hello, {{ authService.getUser() }}</span
+        >
+        <span
+          routerLink="/login"
+          class="header-top-item"
+          *ngIf="!authService.isLoggedIn()"
+          >Hello, Sign in</span
+        >
+        <span class="header-bottom-item">Account & Lists</span>
+      </div>
+      <div class="header-signin second">
+        <span class="header-top-item">Returns</span>
+        <span class="header-bottom-item">& Orders</span>
+      </div>
+      <div class="header-cart" routerLink="/checkout">
+        <mat-icon>shopping_cart</mat-icon>
+        <p class="header-cart-icon">{{ cartService.getCartLength() }}</p>
+      </div>
+    </div>
+  </nav>
+  <nav class="bottom-header">
+    <div class="content">
+      <p>All</p>
+      <p>Todays Deals</p>
+      <p>Customer Service</p>
+      <p>Registry</p>
+      <p>Gift Cards</p>
+      <p>Sell</p>
+    </div>
+  </nav>
+</div>
+
+<!-- ------------------------------------ -->
+
+<!--
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark top-header">
+  <div class="container-fluid">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="header-menu">
+        <div class="header-icon">
+          <mat-icon>menu</mat-icon>
+        </div>
+        <img
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          class="header-logo"
+          alt=""
+          routerLink=""
+        />
+        <div class="header-location">
+          <span class="line-one">Delivery to</span>
+          <span class="line-two">Egypt</span>
+        </div>
+        <div class="header-search">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2"
+            />
+            <span class="input-group-text search-icon" id="basic-addon2">
+              <mat-icon>search</mat-icon>
+            </span>
+          </div>
+        </div>
+        <div class="header-signin">
+          <span
+            (click)="signOut()"
+            class="header-top-item"
+            *ngIf="authService.isLoggedIn()"
+            >Hello, {{ authService.getUser() }}</span
+          >
+          <span
+            routerLink="/login"
+            class="header-top-item"
+            *ngIf="!authService.isLoggedIn()"
+            >Hello, Sign in</span
+          >
+          <span class="header-bottom-item">Account & Lists</span>
+        </div>
+        <div class="header-signin">
+          <span class="header-top-item">Returns</span>
+          <span class="header-bottom-item">& Orders</span>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="header-cart" routerLink="/checkout">
+            <mat-icon>shopping_cart</mat-icon>
+            <p class="header-cart-icon">{{ cartService.getCartLength() }}</p>
+          </div>
+        </ul>
+      </div>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
