@@ -1,0 +1,42 @@
+.carousel {
+  margin: 40px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.carousel .other {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  text-align: center;
+}
+.carousel .content {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
+.carousel .content h2 {
+  padding: 0;
+  margin: 0 20px;
+  font-size: 35px;
+}
+.carousel .content p {
+  font-size: 18px;
+  color: #007185;
+  position: relative;
+  top: 7px;
+  left: 20px;
+  cursor: pointer;
+}
+.carousel .content p:hover {
+  text-decoration: underline;
+  color: #015868;
+}
+.carousel-item img {
+  object-fit: contain;
+  height: 220px;
+}

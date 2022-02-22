@@ -1,0 +1,19 @@
+.single-product {
+  padding: 60px 0 40px;
+  background-color: #fff;
+  margin: 40px;
+}
+
+.single-product-details .product-price {
+  font-family: "Poppins", sans-serif;
+}
+
+.single-product-details .cart .btn {
+  padding: 8px 12px;
+}
+
+.single-product-details .cart .btn:hover {
+  background: #000;
+  border-color: #000;
+  color: #fff !important;
+}

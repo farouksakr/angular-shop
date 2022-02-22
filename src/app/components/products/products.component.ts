@@ -1,5 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { CartService } from 'src/app/services/cart.service';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { ApiService } from 'src/app/services/api.service';
 
 @Component({
   selector: 'app-products',
@@ -7,13 +9,41 @@ import { CartService } from 'src/app/services/cart.service';
   styleUrls: ['./products.component.css'],
 })
 export class ProductsComponent implements OnInit {
-  @Input() products!: any[];
+  products!: any;
+  products2!: any;
+  products3!: any;
+  pageId: any;
+  sub!: Subscription;
 
-  constructor(private cartService: CartService) {}
+  constructor(
+    public apiService: ApiService,
+    private activatedRoute: ActivatedRoute
+  ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.pageId = this.activatedRoute.snapshot.paramMap.get('id');
+    console.log('from products', this.pageId);
 
-  AddToCart(product: any) {
-    this.cartService.addProduct(product);
+    // ----------------------------
+
+    this.getProducts();
+    this.getProducts2();
+    this.getProducts3();
+  }
+
+  getProducts() {
+    this.apiService.getData().subscribe((res) => {
+      this.products = res;
+    });
+  }
+  getProducts2() {
+    this.apiService.getData2().subscribe((res) => {
+      this.products2 = res;
+    });
+  }
+  getProducts3() {
+    this.apiService.getData3().subscribe((res) => {
+      this.products3 = res;
+    });
   }
 }

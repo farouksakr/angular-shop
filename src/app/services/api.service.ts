@@ -1,14 +1,32 @@
+import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
-  private apiUrl: string = 'assets/products/products.json';
+  constructor(
+    private httpClient: HttpClient,
+    private activatedRoute: ActivatedRoute
+  ) {}
 
-  constructor(private httpClient: HttpClient) {}
+  getData() {
+    const url = 'http://localhost:5000/laptops';
+    return this.httpClient.get(url);
+  }
 
-  getData(): Observable<any> {
-    return this.httpClient.get(this.apiUrl);
+  getData2() {
+    const url = 'http://localhost:5000/watches';
+    return this.httpClient.get(url);
+  }
+
+  getData3() {
+    const url = 'http://localhost:5000/accessories';
+    return this.httpClient.get(url);
+  }
+
+  getId(productId: number) {
+    const url = 'http://localhost:5000' + productId;
+    console.log('service', productId);
+    return this.httpClient.get(url);
   }
 }

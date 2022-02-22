@@ -1,14 +1,40 @@
 <div class="products">
-  <div class="product" *ngFor="let product of products">
-    <mat-card>
+  <div class="product" *ngFor="let product of products; let i = index">
+    <mat-card
+      routerLink="/details/:{{ product.id }}"
+      routerLinkActiveOptions="{ exact: true }"
+    >
       <h2>{{ product.title }}</h2>
       <p>
         <strong>{{ product.price | currency }}</strong>
       </p>
       <img src="{{ product.image }}" alt="" class="product-image" />
-      <button class="btn btn-primary" (click)="AddToCart(product)">
-        Add To Cart
-      </button>
     </mat-card>
   </div>
 </div>
+
+<!--
+<div class="products">
+  <div class="product" *ngFor="let product of products2">
+    <mat-card routerLink="details/{{ products.id }}">
+      <h2>{{ product.title }}</h2>
+      <p>
+        <strong>{{ product.price | currency }}</strong>
+      </p>
+      <img src="{{ product.image }}" alt="" class="product-image" />
+    </mat-card>
+  </div>
+</div>
+
+<div class="products">
+  <div class="product" *ngFor="let product of products3">
+    <mat-card routerLink="details/{{ products.id }}">
+      <h2>{{ product.title }}</h2>
+      <p>
+        <strong>{{ product.price | currency }}</strong>
+      </p>
+      <img src="{{ product.image }}" alt="" class="product-image" />
+    </mat-card>
+  </div>
+</div>
+-->

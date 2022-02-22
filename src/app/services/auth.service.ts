@@ -24,6 +24,7 @@ export class AuthService {
         window.alert(err.message);
       });
   }
+
   signUp(email: any, password: any) {
     return this.afAuth
       .createUserWithEmailAndPassword(email, password)
@@ -46,6 +47,7 @@ export class AuthService {
     const user = localStorage.getItem('user');
     return user ? true : false;
   }
+  
   getUser() {
     const user = localStorage.getItem('user');
     return user ? user : null;

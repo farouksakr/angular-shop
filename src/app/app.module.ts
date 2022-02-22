@@ -18,9 +18,8 @@ import { ProductsComponent } from './components/products/products.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CheckoutProductsComponent } from './components/checkout-products/checkout-products.component';
 import { CheckoutSubtotalComponent } from './components/checkout-subtotal/checkout-subtotal.component';
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
-import { provideAuth, getAuth } from '@angular/fire/auth';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +33,7 @@ import { provideAuth, getAuth } from '@angular/fire/auth';
     BannerComponent,
     CheckoutProductsComponent,
     CheckoutSubtotalComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,33 @@
+<section class="single-product">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="single-product-slider">
+          <div
+            class="carousel slide"
+            data-ride="carousel"
+            id="single-product-slider"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{ products?.image }}" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <div class="single-product-details mt-5 mt-lg-0">
+          <h2>{{ products?.title }}</h2>
+          <hr />
+          <h3 class="product-price">{{ products?.price }}</h3>
+          <p class="product-description my-4">{{ products?.desc }}</p>
+          <button class="btn btn-primary" (click)="AddToCart(products?.id)">
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
