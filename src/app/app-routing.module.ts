@@ -8,9 +8,8 @@ import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'products/:id', component: ProductsComponent, pathMatch: 'full' },
-  // { path: 'details/:id', component: ProductDetailsComponent },
-  { path: 'product/:id', component: ProductDetailsComponent },
+  { path: 'products', component: ProductsComponent },
+  { path: 'products/:id', component: ProductDetailsComponent },
   { path: 'checkout', component: CheckoutComponent },
   { path: 'login', component: LoginComponent },
 ];

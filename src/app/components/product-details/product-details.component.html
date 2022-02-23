@@ -21,7 +21,9 @@
         <div class="single-product-details mt-5 mt-lg-0">
           <h2>{{ products?.title }}</h2>
           <hr />
-          <h3 class="product-price">{{ products?.price }}</h3>
+          <h3 class="product-price">
+            {{ products?.price | currency }}
+          </h3>
           <p class="product-description my-4">{{ products?.desc }}</p>
           <button class="btn btn-primary" (click)="AddToCart(products?.id)">
             Add To Cart

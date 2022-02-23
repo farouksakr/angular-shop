@@ -1,184 +1,130 @@
 {
-  "laptops": [
+  "products": [
     {
       "id": 1,
       "title": "Laptop HP Pavilion Aero 13",
       "desc": "HP Pavilion 15.6 Touchscreen Laptop PC, Intel Core i7-1165G7, 16GB DDR4 RAM, 1TB PCIe SSD, 15.6 inch FHD Micro-edge Display Notebook, Intel Iris Xe Graphics, Windows 10 Home, Fog Blue",
       "price": 200,
-      "image": "https://m.media-amazon.com/images/I/41rbgzJ5SPL._AC_SR160,160_.jpg",
-      "ratings": 1,
-      "categoryId": 1
+      "image": "https://m.media-amazon.com/images/I/41rbgzJ5SPL._AC_SR160,160_.jpg"
     },
     {
       "id": 2,
       "title": "Lenovo V15 Gen 2",
       "desc": "Designed for the modern workplace, the Lenovo V15 Gen 2 (15 Intel) laptop gets it right. Suited for mobile productivity, it yields great performance in the office or at home. 11th Gen Intel® Core™ processors and NVIDIA® discrete graphics, plus top-notch security, memory, and storage options, give you a smooth workday, every day.",
       "price": 250,
-      "image": "https://m.media-amazon.com/images/I/31H+3FFPaTL._AC_SR160,160_.jpg",
-      "ratings": 2,
-      "categoryId": 2
+      "image": "https://m.media-amazon.com/images/I/31H+3FFPaTL._AC_SR160,160_.jpg"
     },
     {
       "id": 3,
       "title": "Microsoft Surface Laptop Go",
       "desc": "Microsoft Surface Laptop Go Ultra-Thin 12.4” Touchscreen Laptop (Platinum) - Intel 10th Gen Quad Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode, 2020 Edition",
       "price": 300,
-      "image": "https://m.media-amazon.com/images/I/41yh9kLbBSL._AC_SR160,160_.jpg",
-      "ratings": 3,
-      "categoryId": 3
+      "image": "https://m.media-amazon.com/images/I/41yh9kLbBSL._AC_SR160,160_.jpg"
     },
     {
       "id": 4,
       "title": "ASUS Vivobook E510MA",
       "desc": "ASUS Vivobook E510MA 15.6-inch Laptop (Intel Celeron N4020, 4GB RAM, 128GB eMMC, Windows 10) Includes 1 Year Microsoft Office 365 Subscription",
       "price": 350,
-      "image": "https://m.media-amazon.com/images/I/41na5IDn+9S._AC_SR160,160_.jpg",
-      "ratings": 4,
-      "categoryId": 4
+      "image": "https://m.media-amazon.com/images/I/41na5IDn+9S._AC_SR160,160_.jpg"
     },
     {
       "id": 5,
       "title": "Apple MacBook Air Laptop",
       "desc": "2020 Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID; Space Grey",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/41OxODLYNkL._AC_SR160,160_.jpg",
-      "ratings": 5,
-      "categoryId": 5
+      "image": "https://m.media-amazon.com/images/I/41OxODLYNkL._AC_SR160,160_.jpg"
     },
     {
       "id": 6,
       "title": "Apple MacBook Air Laptop",
       "desc": "2020 Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID; Space Grey",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/41jTUKmjY9S._AC_SR160,160_.jpg",
-      "ratings": 5,
-      "categoryId": 6
-    }
-  ],
-  "watches": [
+      "image": "https://m.media-amazon.com/images/I/41jTUKmjY9S._AC_SR160,160_.jpg"
+    },
     {
       "id": 7,
       "title": "relox 1",
       "desc": "relox 1",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/61JzeOC9rsL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 7
+      "image": "https://m.media-amazon.com/images/I/61JzeOC9rsL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 8,
       "title": "relox 2",
       "desc": "relox 2",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/61R8vmKTv7L._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 8
+      "image": "https://m.media-amazon.com/images/I/61R8vmKTv7L._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 9,
       "title": "relox 3",
       "desc": "relox 3",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/61-1qhM7yOL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 9
+      "image": "https://m.media-amazon.com/images/I/61-1qhM7yOL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 10,
       "title": "relox 4",
       "desc": "relox 4",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/71cQmFUP6tL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 10
+      "image": "https://m.media-amazon.com/images/I/71cQmFUP6tL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 11,
       "title": "relox 5",
       "desc": "relox 5",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/41sZ0ExGjJL._AC_SR160,160_.jpg",
-      "ratings": 5,
-      "categoryId": 11
+      "image": "https://m.media-amazon.com/images/I/41sZ0ExGjJL._AC_SR160,160_.jpg"
     },
     {
       "id": 12,
       "title": "relox 6",
       "desc": "relox 6",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/61r1waCpO9L._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 12
-    }
-  ],
-  "accessories": [
+      "image": "https://m.media-amazon.com/images/I/61r1waCpO9L._AC_UY327_FMwebp_QL65_.jpg"
+    },
     {
       "id": 13,
       "title": "Headset",
       "desc": "relox 1",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/71NdBp4tEKL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 13
+      "image": "https://m.media-amazon.com/images/I/71NdBp4tEKL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 14,
       "title": "Keyboard",
       "desc": "relox 2",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/81L8fk7SGQL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 14
+      "image": "https://m.media-amazon.com/images/I/81L8fk7SGQL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 15,
       "title": "Controller",
       "desc": "relox 3",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/81kKfnnHeuL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 15
+      "image": "https://m.media-amazon.com/images/I/81kKfnnHeuL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 16,
       "title": "Xbox",
       "desc": "relox 4",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/71NBQ2a52CL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 16
+      "image": "https://m.media-amazon.com/images/I/71NBQ2a52CL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 17,
       "title": "Mouse",
       "desc": "relox 5",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/61LZk+r6FqL._AC_UY327_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 17
+      "image": "https://m.media-amazon.com/images/I/61LZk+r6FqL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
       "id": 18,
       "title": "Chair",
       "desc": "relox 6",
       "price": 400,
-      "image": "https://m.media-amazon.com/images/I/61JD0q92PrL._AC_UL480_FMwebp_QL65_.jpg",
-      "ratings": 5,
-      "categoryId": 1
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "categoryName": "laptops"
-    },
-    {
-      "id": 2,
-      "categoryName": "accessories"
-    },
-    {
-      "id": 3,
-      "categoryName": "watches"
+      "image": "https://m.media-amazon.com/images/I/61JD0q92PrL._AC_UL480_FMwebp_QL65_.jpg"
     }
   ]
 }

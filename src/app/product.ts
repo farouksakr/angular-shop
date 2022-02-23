@@ -4,6 +4,4 @@ export interface Product {
   desc?: any;
   price?: any;
   image?: any;
-  ratings?: any;
-  categoryId?: any;
 }

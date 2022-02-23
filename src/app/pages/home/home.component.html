@@ -4,66 +4,18 @@
   class="carousel slide"
   data-bs-touch="false"
   data-bs-interval="false"
-  *ngFor="let prod of productName"
 >
   <div class="content">
-    <h2>{{ prod.name }}</h2>
-    <p
-      routerLink="/products/:{{ prod.id }}"
-      routerLinkActiveOptions="{ exact: true }"
-    >
-      Shop Now
-    </p>
+    <h2>Products</h2>
+    <p routerLink="/products">Shop Now</p>
   </div>
   <div class="other">
-    <div class="carousel-inner" *ngFor="let product of products">
-      <div class="carousel-item active">
-        <img src="{{ prod.image }}" alt="" class="product-image" />
+    <div class="carousel-inner">
+      <div *ngFor="let product of products">
+        <div class="carousel-item active">
+          <img src="{{ product.image }}" alt="" class="product-image" />
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-<!--
-<div
-  id="carouselExampleControlsNoTouching"
-  class="carousel slide"
-  data-bs-touch="false"
-  data-bs-interval="false"
->
-  <div class="content">
-    <h2>Watches</h2>
-    <p routerLink="/products/:id" routerLinkActiveOptions="{ exact: true }">
-      Shop Now
-    </p>
-  </div>
-  <div class="other">
-    <div class="carousel-inner" *ngFor="let product of products2">
-      <div class="carousel-item active">
-        <img src="{{ product.image }}" alt="" class="product-image" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<div
-  id="carouselExampleControlsNoTouching"
-  class="carousel slide"
-  data-bs-touch="false"
-  data-bs-interval="false"
->
-  <div class="content">
-    <h2>Accessories</h2>
-    <p routerLink="/products/:id" routerLinkActiveOptions="{ exact: true }">
-      Shop Now
-    </p>
-  </div>
-  <div class="other">
-    <div class="carousel-inner" *ngFor="let product of products3">
-      <div class="carousel-item active">
-        <img src="{{ product.image }}" alt="" class="product-image" />
-      </div>
-    </div>
-  </div>
-</div>
--->
