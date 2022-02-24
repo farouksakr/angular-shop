@@ -18,8 +18,9 @@ import { ProductsComponent } from './components/products/products.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CheckoutProductsComponent } from './components/checkout-products/checkout-products.component';
 import { CheckoutSubtotalComponent } from './components/checkout-subtotal/checkout-subtotal.component';
-import { environment } from '../environments/environment';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
+
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [

@@ -39,4 +39,20 @@
 .carousel-item img {
   object-fit: contain;
   height: 220px;
+  width: 16.6666666667%;
+}
+@media (max-width: 900px) {
+  .carousel-item img {
+    width: 25%;
+  }
+}
+@media (max-width: 660px) {
+  .carousel-item img {
+    width: 50%;
+  }
+}
+@media (max-width: 450px) {
+  .carousel-item img {
+    width: 100%;
+  }
 }

@@ -10,10 +10,7 @@ import { ApiService } from 'src/app/services/api.service';
 export class ProductsComponent implements OnInit {
   products!: any;
 
-  constructor(
-    public apiService: ApiService,
-    private activatedRoute: ActivatedRoute
-  ) {}
+  constructor(public apiService: ApiService) {}
 
   ngOnInit(): void {
     this.getProducts();

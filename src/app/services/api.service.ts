@@ -10,9 +10,9 @@ export class ApiService {
     return this.httpClient.get(url);
   }
 
-  getProductId(Id: number) {
-    const url = `http://localhost:5000/products/ ${Id}`;
-    console.log('service', Id);
+  getProductId(id: any) {
+    const url = 'http://localhost:5000/products/' + id;
+    console.log('service', id);
     return this.httpClient.get(url);
   }
 }

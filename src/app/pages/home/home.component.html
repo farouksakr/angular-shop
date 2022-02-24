@@ -11,10 +11,13 @@
   </div>
   <div class="other">
     <div class="carousel-inner">
-      <div *ngFor="let product of products">
-        <div class="carousel-item active">
-          <img src="{{ product.image }}" alt="" class="product-image" />
-        </div>
+      <div class="carousel-item active">
+        <img
+          *ngFor="let product of products"
+          src="{{ product.image }}"
+          alt=""
+          class="product-image"
+        />
       </div>
     </div>
   </div>

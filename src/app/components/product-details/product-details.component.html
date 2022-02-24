@@ -16,18 +16,20 @@
           </div>
         </div>
       </div>
-
-      <div class="col-md-7">
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
         <div class="single-product-details mt-5 mt-lg-0">
           <h2>{{ products?.title }}</h2>
           <hr />
           <h3 class="product-price">
+            Price:<br />
             {{ products?.price | currency }}
           </h3>
-          <p class="product-description my-4">{{ products?.desc }}</p>
-          <button class="btn btn-primary" (click)="AddToCart(products?.id)">
-            Add To Cart
-          </button>
+          <h3>
+            Description:<br />
+            {{ products?.desc }}
+          </h3>
+          <button class="btn" (click)="AddToCart(products)">Add To Cart</button>
         </div>
       </div>
     </div>

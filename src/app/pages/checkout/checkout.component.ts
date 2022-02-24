@@ -13,6 +13,7 @@ export class CheckoutComponent implements OnInit {
 
   ngOnInit(): void {
     this.getCart();
+    console.log(this.getCart());
   }
 
   getCart() {

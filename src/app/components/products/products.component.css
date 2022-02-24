@@ -10,18 +10,13 @@
   width: 300px;
   margin: 20px;
   align-items: center;
+  cursor: pointer;
+}
+mat-card:hover {
+  box-shadow: 5px 5px 5px rgb(195, 195, 195);
 }
 .product > mat-card > img {
   object-fit: contain;
   height: 200px;
-}
-.product > mat-card > button {
-  margin-top: 20px;
-  background-color: #febd69;
-  color: #000;
-  border: 0;
-  transition: 0.2s ease-in-out;
-}
-.product mat-card button:hover {
-  letter-spacing: 1px;
+  width: 100%;
 }

@@ -4,21 +4,19 @@
   margin: 40px;
 }
 
-.single-product-details .product-price {
-  font-family: "Poppins", sans-serif;
+button {
+  margin-top: 20px;
+  background-color: #febd69;
+  color: #000;
+  border: 0;
+  transition: 0.2s ease-in-out;
+  padding: 8px 20px;
 }
+button:hover {
+  background-color: #f3a948;
+ }
 
-.single-product-details .cart .btn {
-  padding: 8px 12px;
-}
-
-.single-product-details .cart .btn:hover {
-  background: #000;
-  border-color: #000;
-  color: #fff !important;
-}
-
-.img-fluid {
+/* .img-fluid {
   width: 100%;
   height: auto;
-}
+} */
